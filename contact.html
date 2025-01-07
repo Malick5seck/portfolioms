@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+</head>
+<body>
+    <header class="header" >
+        <h1>MON PORTFOLIO</h1>
+        <nav class="header-nav">
+          <button class="navbtn" aria-label="Menu">
+            <i class="fa-solid fa-bars"></i> 
+        </button>
+            <ul class="ul">
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./competence.html">Competences</a></li>
+                <li><a href="./projet.html">Projets</a></li>
+                <li><a href="./loisir.html">loisirs</a></li>
+                <li><a href="./contact.html" id="activate">Contact</a></li>
+  
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h3 class="debut">Contactez-moi</h3>
+        <form id="form">
+          <div>
+            <label for="name">Prenom </label>
+            <input type="text" id="firstname" placeholder="Entrer votre prenom" class="in">
+            <p style="margin-top: -10px; font-size: 13px; color: red;" class="p_error"></p>
+
+          </div>
+          <div>
+            <label for="name">Nom </label>
+            <input type="text" id="lastname"  placeholder="Entrer votre nom" class="in">
+            <p style="margin-top: -10px; font-size: 13px; color: red;" class="p_error"></p>
+
+          </div>
+          <div>
+            
+            <label for="name">Telephone</label>
+            <input type="number" id="phone" placeholder="Entrer votre telephone" class="in">
+            <p style="margin-top: -10px; font-size: 13px; color: red;" class="p_error"></p>
+  
+          </div>
+          <div>
+            <label for="email">Email </label>
+            <input type="email" id="email" placeholder="Veuillez entrer votre email" class="in">
+            <p style="margin-top: -10px; font-size: 13px; color: red;" class="p_error"></p>
+
+          </div>
+          <div>
+            <label for="email">Confirmer votre Email </label>
+            <input type="email" id="email" placeholder="Confirmer votre email" class="in">
+            <p style="margin-top: -10px; font-size: 13px; color: red;" class="p_error"></p>
+
+          </div>
+          <div>
+            <label for="message">Message </label>
+            <textarea id="message" ></textarea>
+
+          </div>
+
+           <div class="button">
+            <button type="submit">Envoyer</button>
+            <button type="reset">Reinitialiser</button>
+           </div>
+
+        </form>
+        <div id="messError"></div>
+    </section>
+    <h3 class="debut">MES RESEAUX SOCIAUX</h3>
+    <div class="reseau-sociaux">
+
+      <div class="contact-item">
+         <h4> WhatsApp</h4>
+          <a href="https://wa.me/221778007087" target="_blank" class="contact-button">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+      </div>
+  
+       <div class="contact-item">
+        <h4> Email</h4>
+        <a href="mailto:Malickseck7087@gmail.com" target="_blank" class="contact-button">
+            <i class="fa-solid fa-square-envelope"></i> Email
+        </a>
+    </div>
+  
+      <div class="contact-item">
+        <h4>Téléphone</h4>
+          <a href="tel:+221778007087" class="contact-button">
+            <i class="fa-solid fa-phone-volume"></i>  Téléphone
+          </a>
+      </div>
+      <div class="contact-item">
+        <h4>Github</h4>
+         <a href="https://github.com/Malick5seck" target="_blank" class="contact-button">
+          <i class="fa-brands fa-github"></i> github
+         </a>
+     </div>
+ 
+      <div class="contact-item">
+       <h4>Linkedin</h4>
+       <a href="https://www.linkedin.com/in/malick-seck-558a84343/" target="_blank" class="contact-button">
+        <i class="fa-brands fa-linkedin"></i> Linkedin
+       </a>
+   </div>
+ 
+     <div class="contact-item">
+       <h4>Instagram</h4>
+         <a href="https://www.instagram.com/og__milka_05/" class="contact-button">
+          <i class="fa-brands fa-instagram"></i> Instagram
+         </a>
+     </div>
+  </div>
+
+  <footer class="footer">
+    <h4>© MonPortfolio 2024. Tous droits réservés.</h4>
+  </footer>
+
+  <script src="./script.js"></script>
+
+
+    
+</body>
+</html>
